@@ -1,0 +1,92 @@
+.lin{
+    padding: 0 200px;
+    font-size: 30px;
+    
+}
+.line{
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    
+}
+.link--active{
+    color: teal;
+    font: bold;
+}
+.line:hover{
+    text-decoration: underline;
+    
+}
+.content{
+    width:35%;
+    padding-top: 1%;
+    float: left;
+    }
+.id-photo{
+    width:55%;
+    border:2px solid rgb(82, 57, 129) ;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    float: right;
+    transform:scale(1) filter;
+    transition: transform 1s ease-in-out;
+    filter: drop-shadow(0px 0px 0px rgb(82, 57, 129))
+    drop-shadow(0px 0px 0px rgb(36, 75, 112))
+    drop-shadow(0px 0px 0px rgb(82, 57, 129))
+    drop-shadow(0px 0px 0px rgb(36, 75, 112));
+}
+.id-photo:hover{
+    transform: scale(1.05);
+    filter: drop-shadow(5px 5px 10px rgb(82, 57, 129))
+            /* drop-shadow(10px 10px 15px rgb(36, 75, 112)) */
+            drop-shadow(-5px -5px 10px rgb(82, 57, 129))
+            /* drop-shadow(-10px -10px 15px rgb(36, 75, 112)) */
+            ;
+    border:0px;
+}
+body{
+    background-color: rgb(33, 58, 58);
+}
+.intro{
+    width: 60%;
+    float: right;
+}
+
+h1{
+    font-size: 25px; 
+    margin-bottom: 5px;
+}
+.intro-h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: rgb(185, 182, 179);
+}
+.sub-h2{
+    font-size:40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(19, 17, 17);
+
+}
+#intro-desc{
+    border: 2px dashed #26b5c5;
+    padding-top: 1%;
+    font-size: xx-large;
+    width: 70%;
+    height:110px;
+    overflow:hidden;
+    transform: translateY(0);
+    transition: 1s ease-in-out;
+}
+
+#intro-desc a{
+    text-decoration: none;
+    color: rgb(185, 182, 179);
+    font-size:20px;
+    float: right;
+}
